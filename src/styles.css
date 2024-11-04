@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background-image: url('../src/app/assets/troste.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.countdown-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:end;
+    min-height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5em;
+    margin-bottom: 20px;
+    background-color: rgb(114, 153, 238);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.2em; /* Ajusta el tamaño de fuente a uno más pequeño */
+    }
+}
