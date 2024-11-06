@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./countdown.component.css']
 })
 export class CountdownComponent implements OnInit {
-  eventDate: Date = new Date(new Date().setDate(new Date().getDate() + 27)); // Fecha en 27 días
+  eventDate: Date = new Date(new Date().setDate(new Date().getDate() + 25)); // Fecha en 27 días
   daysLeft: number = 0;
   hoursLeft: number = 0;
   minutesLeft: number = 0;
